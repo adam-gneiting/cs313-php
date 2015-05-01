@@ -1,0 +1,48 @@
+#section0 {
+	/*background-color: transparent !important;*/
+	background-image: url('img/me.jpg');
+	background-size: cover;
+}
+
+#menu {
+	position: fixed;
+	top: 30%;
+	left: 0;
+	height: 300px;
+	z-index: 70;
+	width: 300px;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu li {
+	list-style: none;
+	padding-bottom: 30px;
+}
+
+#menu a {
+	display: block;
+	font-size: 28px;
+	line-height: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #85B35B;
+	-moz-transistion: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	-webkit-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+#menu a:hover,
+#menu li.active a {
+
+	line-height: 36px;
+	font-size: 40px;
+	color: #097A1E;
+	-moz-transform: translateX(35px);
+	-ms-transform: translateX(35px);
+	-webkit-transform: translateX(35px);
+	transform: translateX(35px);
+}
